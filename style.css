@@ -15,6 +15,7 @@ body {
   grid-row-gap: 25px;
   margin: 25px;
   padding: 20px;
+  background-color: yellow;
 }
 
 .AboutMe {
