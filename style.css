@@ -13,14 +13,14 @@ body {
   grid-template-rows: 1fr;
   grid-column-gap: 25px;
   grid-row-gap: 25px;
-  margin: 25px;
-  padding: 20px;
+  margin: 5px;
+  padding: 10px;
   background-color: #fff;
 }
 
 .AboutMe {
   background: #fff;
-  box-shadow: -1px 7px 28px -9px rgba(0, 0, 0, 0. 32);
+  box-shadow: -1px 7px 28px -9px black inset;
   color: #4f9ef8;
   font-family: "Arial", sans-serif;
   font-size: 16px;
@@ -93,7 +93,7 @@ body {
 .Eat {
   background: #fff;
   background-size: contain;
-  box-shadow: -1px 7px 28px -9px rgba(0, 0, 0, 0. 32);
+  box-shadow: -1px 7px 28px -9px black inset;
   font-family: "Arial", serif;
   font-size: 16px;
   grid-area: 2 / 3 / 3 / 4;
@@ -104,7 +104,7 @@ body {
 .Relax {
   background: #fff;
   background-size: contain;
-  box-shadow: -1px 7px 28px -9px rgba(0, 0, 0, 0. 32);
+  box-shadow: -1px 7px 28px -9px black inset;
   font-family: "Arial", serif;
   font-size: 16px;
   grid-area: 2 / 2 / 3 / 3;
@@ -115,17 +115,17 @@ body {
 
 .Travel {
   background: #fff;
-  box-shadow: -1px 7px 28px -9px rgba(0, 0, 0, 0. 32);
+  box-shadow: -1px 7px 28px -9px black inset;
   color: #000;
   font-family: "Arial", sans-serif;
   font-size: 16px;
   font-style: normal;
   grid-area: 2 / 1 / 3 / 2;
   position: relative;
+  text-align: justify;
 }
 
 .Bottom-Card1 {
-  background-color: #fff;
   color: #4f9ef8;
   font-family: "Arial", sans-serif;
   font-size: 20px;
@@ -133,6 +133,7 @@ body {
   min-height: 50px;
   min-width: 30px;
   padding-left: 5px;
+  padding-right: 5px;
   text-shadow: 1px 1px #000;
 }
 
@@ -186,10 +187,11 @@ h1 {
   }
 }
 
-@media only screen and (min-width: 50px) and (max-width: 600px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
   /* mobile size rules */
   .Photo {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    background-color: blue;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   }
 
   .AboutMe {
