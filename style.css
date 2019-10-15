@@ -63,7 +63,7 @@ body {
   background-color: #4f9ef8;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 250px;
   min-height: 250px;
   min-width: 250px;
   position: relative;
@@ -71,6 +71,12 @@ body {
 
 .Bottom-Card {
   padding: 10px;
+  color: #000;
+  color: #4f9ef8;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  text-shadow: 1px 1px #000;
 }
 
 .profile-pic {
@@ -110,7 +116,7 @@ body {
 .Travel {
   background: #fff;
   box-shadow: -1px 7px 28px -9px rgba(0, 0, 0, 0. 32);
-  color: black;
+  color: #000;
   font-family: "Arial", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -122,11 +128,12 @@ body {
   background-color: #fff;
   color: #4f9ef8;
   font-family: "Arial", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   min-height: 50px;
   min-width: 30px;
   padding-left: 5px;
+  text-shadow: 1px 1px #000;
 }
 
 .navbar {
@@ -156,7 +163,7 @@ body {
 h1 {
   text-align: center;
   color: #4f9ef8;
-  text-shadow: 1px qpx #000;
+  text-shadow: 1px 1px #000;
   font-size: 36px;
 }
 
