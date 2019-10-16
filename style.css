@@ -63,7 +63,7 @@ body {
   background-color: #4f9ef8;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 250px;
+  background-size: cover;
   min-height: 250px;
   min-width: 250px;
   position: relative;
@@ -132,8 +132,8 @@ body {
   font-style: normal;
   min-height: 50px;
   min-width: 30px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
   text-shadow: 1px 1px #000;
 }
 
