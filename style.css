@@ -90,6 +90,33 @@ body {
   width: 200px;
 }
 
+.Check-List {
+  background: #fff;
+  box-shadow: -1px 7px 28px -9px black inset;
+  color: #4f9ef8;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
+  position: relative;
+}
+
+.ul-li {
+  column-count: 2;
+  column-gap: 10px;
+  column-rule-style: inset;
+  column-rule-color: red;
+  padding: 10px;
+  color: #000;
+  color: #4f9ef8;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  text-shadow: 1px 1px #000;
+}
+
 .Eat {
   background: #fff;
   background-size: contain;
