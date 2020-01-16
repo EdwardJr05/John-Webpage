@@ -104,14 +104,17 @@ body {
 }
 
 .ul-li {
-  column-count: 2;
-  column-gap: 5px;
-  padding: 5px;
   color: #000;
   color: #4f9ef8;
+  column-count: 2;
+  column-gap: 5px;
+  display: inline;
+  float: left;
   font-family: "Arial", sans-serif;
   font-size: 16px;
   font-style: normal;
+  overflow: hidden;
+  padding: 5px;
   text-align: justify;
   text-shadow: 1px 1px #000;
 }
@@ -134,7 +137,7 @@ body {
   font-family: "Arial", serif;
   font-size: 16px;
   grid-area: 2 / 2 / 3 / 3;
-  overflow: hidden;
+  overflow: ;
   position: relative;
   text-align: justify;
 }
